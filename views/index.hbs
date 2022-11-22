@@ -1,0 +1,145 @@
+
+<body class="bg-purple">
+        
+        <div class="stars">
+            <div class="custom-navbar">
+                <div class="brand-logo">
+                    {{!-- --}}
+                </div>
+                <div class="navbar-links">
+                    <ul>
+                      {{!-- <li><a href="" target="_blank">Home</a></li>
+                      <li><a href="" target="_blank">About</a></li>
+                      <li><a href="" target="_blank">Features</a></li> --}}
+                      <li><a href="http://salehriaz.com/404Page/404.html" class="btn-request" target="_blank">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h1 style="margin-top:-5px; margin-left: 35px" class="app_title">Englishify</h1>
+            </div>
+            
+                <div id="content" style="margin-left:320px;">
+                    <h1 style="color: aliceblue;">Welcome!</h1>
+                    <form action="" method="get">
+                        <div class="input-bar">
+
+                            <input type="text" id="name" class="input" placeholder="Enter Cabin Number">
+                            <box-icon name='user'></box-icon>
+                        </div>
+                        {{!-- <div class="input-bar">
+                            <label for="password">password</label>
+                            <input type="password" id="password" class="input">
+                            <box-icon name='lock-alt' ></box-icon>
+                        </div> --}}
+                    </form>
+                    <button type="submit" id="btn">Search</button>
+                </div>
+            
+            <div class="objects">
+                <img class="object_rocket" src="http://salehriaz.com/404Page/img/rocket.svg" width="40px">
+                <div class="earth-moon">
+                    <img class="object_earth" src="http://salehriaz.com/404Page/img/earth.svg" width="100px">
+                    <img class="object_moon" src="http://salehriaz.com/404Page/img/moon.svg" width="80px">
+                </div>
+                <div class="box_astronaut">
+                    <img class="object_astronaut" src="http://salehriaz.com/404Page/img/astronaut.svg" width="140px">
+                </div>
+            </div>
+            <div class="glowing_stars">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+<style>
+    
+ .app_title{
+    @include clear-space;
+    font-size: /* 6.6 */ 4.5em;
+    font-weight: 900;
+    color:aliceblue;
+    font-family: cursive;
+    font-style: italic;
+  }
+
+
+#content {
+    width: 350px;
+    padding: 50px;
+    box-shadow: 0 11px 17px 5px rgb(0 0 0 / 33%);
+    border-radius: 50px;
+}
+
+#content > h1 {
+    text-align: center;
+}
+
+.input-bar {
+    width: 350px;
+    height: 60px;
+    border: 2px solid #8f21ca;
+    border-radius: 25px;
+    margin: 30px 0;
+    opacity: 0.5;
+    transition: 200ms;
+    font-weight: 600;
+    position: relative;
+}
+
+.input-bar > label {
+    position: absolute;
+    font-size: 17px;
+    text-transform: capitalize;
+    top: 20px;
+    left: 45px;
+    transition: 200ms;
+}
+
+.input-bar > input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    padding: 20px 45px 10px;
+    font-size: 18px;
+}
+
+.input-bar > box-icon {
+    position: absolute;
+    width: 26px;
+    top: 17px;
+    left: 10px;
+}
+
+.focus {
+    opacity: 1;
+}
+
+.focus > label {
+    top: 2px;
+    font-size: 12px;
+}
+
+#btn {
+    width: 350px;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    background-color: #610990;
+    font-size: 24px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+</style>
